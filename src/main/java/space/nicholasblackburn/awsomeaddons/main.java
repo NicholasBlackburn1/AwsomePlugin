@@ -1,5 +1,6 @@
 package space.nicholasblackburn.awsomeaddons;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -8,9 +9,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class main extends JavaPlugin{
 
-    
+    public static java.util.logging.Logger Logger = Bukkit.getLogger();
+
     @Override
     public void onEnable() {
+        Logger.warning("_____________________________________________");
+        Logger.warning("___   custo Plugin running                 __");
+        Logger.warning("_____________________________________________");
 
     }
 
